@@ -4,12 +4,16 @@
   "description": "User management application over files",
   "main": "dist/app.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles"
   },
   "author": "Surawich Laprattanatrai",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^24.0.15",
     "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
   },
   "dependencies": {
